@@ -6,8 +6,6 @@ Este relatório detalha a implementação de um modelo de regressão Random Fore
 
 ### **2\. Metodologia**
 
-A metodologia adotada envolve as seguintes etapas:
-
 1. **Coleta de Dados:** Os dados foram coletados em um DataFrame do Pandas, incluindo informações sobre a data, produção, defeitos, tipo de manutenção e produção acumulada. Para o modelo de regressão Random Forest, foram utilizados dados fictícios de manutenção e falhas, onde as variáveis independentes (X) representam os dias desde a última manutenção e a produção, e a variável dependente (y) indica a ocorrência de falha (1 para falha, 0 para sem falha).  
 2. **Pré-processamento de Dados:** Os dados foram organizados em um formato adequado para o treinamento do modelo, com as variáveis independentes e a variável dependente claramente definidas.  
 3. **Treinamento do Modelo:** Um modelo de regressão Random Forest foi treinado utilizando os dados fictícios. O Random Forest é um algoritmo de aprendizado de máquina que constroi múltiplas árvores de decisão e combina suas previsões para obter uma estimativa mais precisa e robusta.  
